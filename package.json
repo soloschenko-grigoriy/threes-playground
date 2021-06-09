@@ -52,7 +52,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "pre-commit": [
-    "prettier",
     "lint",
     "test"
   ]
