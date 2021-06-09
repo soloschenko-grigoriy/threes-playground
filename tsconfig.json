@@ -1,15 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "esnext",
     "module": "es6",
     "outDir": "./dist/",
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "lib": [
-      "esnext",
-      "esnext.asynciterable",
-      "dom"
-    ],
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
     "importHelpers": true,
     "esModuleInterop": true,
     "strictPropertyInitialization": false,
@@ -18,15 +14,9 @@
     "strict": true,
     "baseUrl": "src",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     },
-    "types": [
-      "jest"
-    ],
+    "types": ["jest"]
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
